@@ -18,7 +18,8 @@ Emergency Dispatch: If the inflow at any station exceeds 5 times the bus capacit
 Interval Adjustment: Adjust the bus interval at a station dynamically:
 If the predicted passenger load exceeds the current service capacity, reduce the interval to deploy more buses.
 The interval should not drop below 1 minute.
-Input Format:
+# Input Format:
+
 Integer n: The number of stations (1 ≤ n ≤ 24).
 Integer busCapacity: The capacity of each bus (1 ≤ busCapacity ≤ 500).
 Integer baseInterval: The base time interval between buses in minutes (1 ≤ baseInterval ≤ 15).
